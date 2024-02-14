@@ -8573,3 +8573,27 @@
             color: #000;
             font-weight: 600;        
         }
+        .password{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #dfdfdf;
+        }
+        .password-box{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 440px;
+            height: 480px;
+            padding: 30px;
+        }
+        .password-header{
+            text-align: center;
+            margin: 20px 0 40px 0;
+        }
+        .password-header header{
+            color: #333;
+            font-size: 30px;
+            font-weight: 600;
+        }
