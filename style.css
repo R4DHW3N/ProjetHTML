@@ -8537,6 +8537,39 @@
         }
         .sign-up-link a{
             color: #000;
+            font-weight: 600;        
+        }
+
+        .register{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #dfdfdf;
+        }
+        .register-box{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 440px;
+            height: 480px;
+            padding: 30px;
+        }
+        .register-header{
+            text-align: center;
+            margin: 20px 0 40px 0;
+        }
+        .register-header header{
+            color: #333;
+            font-size: 30px;
             font-weight: 600;
-            
+        }
+        .sign-in-link{
+            text-align: center;
+            font-size: 15px;
+            margin-top: 20px;
+        }
+        .sign-in-link a{
+            color: #000;
+            font-weight: 600;        
         }
