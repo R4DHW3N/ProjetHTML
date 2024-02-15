@@ -8597,3 +8597,27 @@
             font-size: 30px;
             font-weight: 600;
         }
+        .nav .nav-item .nav-link.active {
+            color: #0f6fec !important;
+        }
+        a {
+            color:#676a79 !important;
+        }
+        .hstack {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-item-align: stretch;
+            align-self: stretch;
+        }
+        .overflow-hidden {
+            overflow: hidden!important;
+            width: -webkit-fill-available;
+        }
