@@ -1,3 +1,14 @@
+<?php
+// Démarrer la session pour accéder aux informations de l'utilisateur
+session_start();
+
+// Vérifier si l'utilisateur est déjà connecté
+if (isset($_SESSION['user_id'])) {
+    // Redirection vers la page d'accueil
+    header("Location: index.php");
+    exit;
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
